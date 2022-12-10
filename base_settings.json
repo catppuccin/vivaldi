@@ -1,6 +1,6 @@
 {
-   "accentFromPage": true,
-   "accentOnWindow": true,
+   "accentFromPage": false,
+   "accentOnWindow": false,
    "accentSaturationLimit": 1,
    "alpha": 0.92,
    "backgroundImage": "",
