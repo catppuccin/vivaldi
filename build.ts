@@ -8,7 +8,7 @@ const FILENAME_BASE = 'Catppuccin'
 const OUT_DIR = './dist'
 const WORK_DIR = `${OUT_DIR}/work`
 
-const OLED_FLAVOR = {
+const AMOLED_FLAVOR = {
   base: { hex: '#000000' },
   mantle: { hex: '#010101' },
   crust: { hex: '#020304' },
@@ -116,11 +116,11 @@ for (const [flavor, labels] of Object.entries(uuidMap.flat)) {
 }
 
 // OLEDppuccin variant build
-for (const [flavor, labels] of Object.entries(uuidMap.oledppuccin)) {
+for (const [flavor, labels] of Object.entries(uuidMap.amoled)) {
   const flavorName = capitalizeFirstLetter(flavor)
 
   // @ts-ignore-next-line: Deno import-from-npm feature with types doesn't work
-  const colors = { ...flavors[flavor], ...OLED_FLAVOR }
+  const colors = { ...flavors[flavor], ...AMOLED_FLAVOR }
 
   for (const [label, uuid] of Object.entries(labels)) {
     const color = label
@@ -133,7 +133,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.oledppuccin)) {
     const colorWindowBg = colors.crust.hex.toUpperCase()
 
     const id = uuid
-    const name = `${FILENAME_BASE} ${flavorName} ${colorName} OLEDppuccin`
+    const name = `${FILENAME_BASE} ${flavorName} ${colorName} Amoled`
 
     const out = {
       ...base,
@@ -163,11 +163,11 @@ for (const [flavor, labels] of Object.entries(uuidMap.oledppuccin)) {
 }
 
 // OLEDppuccin flat variant build
-for (const [flavor, labels] of Object.entries(uuidMap.oledppuccinFlat)) {
+for (const [flavor, labels] of Object.entries(uuidMap.amoledFlat)) {
   const flavorName = capitalizeFirstLetter(flavor)
 
   // @ts-ignore-next-line: Deno import-from-npm feature with types doesn't work
-  const colors = { ...flavors[flavor], ...OLED_FLAVOR }
+  const colors = { ...flavors[flavor], ...AMOLED_FLAVOR }
 
   for (const [label, uuid] of Object.entries(labels)) {
     const color = label
@@ -180,7 +180,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.oledppuccinFlat)) {
     const colorWindowBg = colors.crust.hex.toUpperCase()
 
     const id = uuid
-    const name = `${FILENAME_BASE} ${flavorName} ${colorName} OLEDppuccin Flat`
+    const name = `${FILENAME_BASE} ${flavorName} ${colorName} Amoled Flat`
 
     const out = {
       ...base,

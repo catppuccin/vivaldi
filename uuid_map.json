@@ -123,7 +123,7 @@
       "lavender": "9d1fb3a6-e349-4062-ab68-be8e8b10c32c"
     }
   },
-  "oledppuccin": {
+  "amoled": {
     "mocha": {
       "flamingo": "1755382c-cfb6-4c4b-8c7b-6ce0621455ed",
       "pink": "8b944a9b-04aa-4bb1-8313-ef92c8f22735",
@@ -140,7 +140,7 @@
       "lavender": "57a6e1a8-265c-467e-9994-7c115b2a3dbd"
     }
   },
-  "oledppuccinFlat": {
+  "amoledFlat": {
     "mocha": {
       "flamingo": "0c8ef50e-6471-4774-9ccd-df57fd74e3f9",
       "pink": "2298f951-611c-43c4-a014-dc9bef70edd5",

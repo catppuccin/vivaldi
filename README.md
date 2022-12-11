@@ -47,8 +47,8 @@
 
 - Default: 4 flavours and 13 colours (52 themes)
 - Flat: 4 flavours and 13 colours (52 themes)
-- OLEDppuccin: Custom flavour based Mocha and 13 colours (13 themes)
-- OLEDppuccin Flat: Custom flavour based Mocha and 13 colours (13 themes)
+- Amoled: Custom flavour based Mocha and 13 colours (13 themes)
+- Amoled Flat: Custom flavour based Mocha and 13 colours (13 themes)
 
 </details>
 
