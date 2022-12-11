@@ -10,8 +10,6 @@ const WORK_DIR = `${OUT_DIR}/work`
 
 const AMOLED_FLAVOR = {
   base: { hex: '#000000' },
-  mantle: { hex: '#010101' },
-  crust: { hex: '#020304' },
 }
 
 function capitalizeFirstLetter(s: string) {
