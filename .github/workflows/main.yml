@@ -15,5 +15,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
+          draft: true
           files: dist/*.zip
           body_path: docs/${{ github.ref_name }}-CHANGELOG.md
