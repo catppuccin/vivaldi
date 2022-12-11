@@ -17,4 +17,4 @@ jobs:
         with:
           draft: true
           files: dist/*.zip
-          body_path: docs/${{ github.ref_name }}-CHANGELOG.md
+          body_path: changelogs/${{ github.ref_name }}.md
