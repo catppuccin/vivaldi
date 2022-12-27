@@ -30,7 +30,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.default)) {
     const color = label
     const colorName = capitalizeFirstLetter(color)
 
-    const colorAccentBg = colors.mantle.hex.toUpperCase()
+    const colorAccentBg = colors[label].hex.toUpperCase()
     const colorBg = colors.base.hex.toUpperCase()
     const colorFg = colors.text.hex.toUpperCase()
     const colorHighlightBg = colors[label].hex.toUpperCase()
@@ -77,7 +77,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.flat)) {
     const color = label
     const colorName = capitalizeFirstLetter(color)
 
-    const colorAccentBg = colors.base.hex.toUpperCase()
+    const colorAccentBg = colors[label].hex.toUpperCase()
     const colorBg = colors.base.hex.toUpperCase()
     const colorFg = colors.text.hex.toUpperCase()
     const colorHighlightBg = colors[label].hex.toUpperCase()
@@ -124,7 +124,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.amoled)) {
     const color = label
     const colorName = capitalizeFirstLetter(color)
 
-    const colorAccentBg = colors.mantle.hex.toUpperCase()
+    const colorAccentBg = colors[label].hex.toUpperCase()
     const colorBg = colors.base.hex.toUpperCase()
     const colorFg = colors.text.hex.toUpperCase()
     const colorHighlightBg = colors[label].hex.toUpperCase()
@@ -171,7 +171,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.amoledFlat)) {
     const color = label
     const colorName = capitalizeFirstLetter(color)
 
-    const colorAccentBg = colors.base.hex.toUpperCase()
+    const colorAccentBg = colors[label].hex.toUpperCase()
     const colorBg = colors.base.hex.toUpperCase()
     const colorFg = colors.text.hex.toUpperCase()
     const colorHighlightBg = colors[label].hex.toUpperCase()
