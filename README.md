@@ -33,6 +33,34 @@
 <summary>🌿 Mocha</summary>
 <img src="./assets/mocha.png"/>
 </details>
+<details>
+<summary>🌙 Mocha Amoled</summary>
+<img src="./assets/mocha_amoled.png"/>
+</details>
+<details>
+<summary>Flat variant themes</summary>
+<img src="./assets/preview_flat.webp"/>
+</details>
+<details>
+<summary>🌻 Latte Flat</summary>
+<img src="./assets/latte_flat.png"/>
+</details>
+<details>
+<summary>🪴 Frappé Flat</summary>
+<img src="./assets/frappe_flat.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato Flat</summary>
+<img src="./assets/macchiato_flat.png"/>
+</details>
+<details>
+<summary>🌿 Mocha Flat</summary>
+<img src="./assets/mocha.png"/>
+</details>
+<details>
+<summary>🌙 Mocha Amoled Flat</summary>
+<img src="./assets/mocha_amoled_flat.png"/>
+</details>
 
 ## Usage
 
