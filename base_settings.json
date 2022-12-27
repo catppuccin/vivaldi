@@ -3,7 +3,7 @@
    "accentOnWindow": true,
    "accentSaturationLimit": 1,
    "alpha": 0.92,
-   "backgroundImage": "",
+   "backgroundImage": "background.jpg",
    "backgroundPosition": "stretch",
    "blur": 5,
    "colorAccentBg": "#ef3939",

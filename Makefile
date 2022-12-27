@@ -3,7 +3,7 @@
 all: build
 
 build: clean
-	deno run --allow-run --allow-write ./build.ts
+	deno run --allow-env --allow-read --allow-run --allow-write ./build.ts
 
 clean:
 	rm -rf ./dist
