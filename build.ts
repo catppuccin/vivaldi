@@ -34,7 +34,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.default)) {
     const colorBg = colors.base.hex.toUpperCase()
     const colorFg = colors.text.hex.toUpperCase()
     const colorHighlightBg = colors[label].hex.toUpperCase()
-    const colorWindowBg = colors.crust.hex.toUpperCase()
+    const colorWindowBg = colors.mantle.hex.toUpperCase()
 
     const id = uuid
     const name = `${FILENAME_BASE} ${flavorName} ${colorName}`
@@ -128,7 +128,7 @@ for (const [flavor, labels] of Object.entries(uuidMap.amoled)) {
     const colorBg = colors.base.hex.toUpperCase()
     const colorFg = colors.text.hex.toUpperCase()
     const colorHighlightBg = colors[label].hex.toUpperCase()
-    const colorWindowBg = colors.crust.hex.toUpperCase()
+    const colorWindowBg = colors.mantle.hex.toUpperCase()
 
     const id = uuid
     const name = `${FILENAME_BASE} ${flavorName} ${colorName} Amoled`
