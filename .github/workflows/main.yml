@@ -9,6 +9,10 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: vx.x.x
+      - name: Setup
+        run: |
+          apt-get update && export DEBIAN_FRONTEND=noninteractive \
+            && apt-get -y install --no-install-recommends imagemagick
       - name: Build
         run: make
       - name: Release
