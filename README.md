@@ -36,7 +36,7 @@
 
 ## Usage
 
-130 themes are available.
+140 themes are available.
 
 1. Go to [releases](https://github.com/catppuccin/vivaldi/releases).
 2. Download your favourite variant, flavour, and colour tarball.
@@ -45,10 +45,10 @@
 <details>
 <summary>🎶 Variants</summary>
 
-- Default: 4 flavours and 13 colours (52 themes)
-- Flat: 4 flavours and 13 colours (52 themes)
-- Amoled: Custom flavour based Mocha and 13 colours (13 themes)
-- Amoled Flat: Custom flavour based Mocha and 13 colours (13 themes)
+- Default: 4 flavours and 14 colours (56 themes)
+- Flat: 4 flavours and 14 colours (56 themes)
+- Amoled: Custom flavour based Mocha and 14 colours (14 themes)
+- Amoled Flat: Custom flavour based Mocha and 14 colours (14 themes)
 
 </details>
 

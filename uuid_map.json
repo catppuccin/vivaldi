@@ -1,6 +1,7 @@
 {
   "default": {
     "latte": {
+      "rosewater": "2ba5d1cd-5f55-43a8-af87-2b76c4419f5b",
       "flamingo": "fdfc2acf-baed-423c-9169-cb13075bf878",
       "pink": "a2e62ed1-06a3-42b1-b6c3-38bfa00c9418",
       "mauve": "970583f6-5845-4c83-a731-4dc7ae33dc12",
@@ -16,6 +17,7 @@
       "lavender": "9224a224-1f0f-4691-88da-9fc734de51ef"
     },
     "frappe": {
+      "rosewater": "20f2e6c8-8804-4066-8029-9cd6800708a9",
       "flamingo": "416d3c79-65ac-438f-8ebc-3aa4d5892812",
       "pink": "8c5015e8-b86a-4854-9881-719a4c426a16",
       "mauve": "94e7ae8a-b3f4-41f7-b661-d41cf90c2cde",
@@ -31,6 +33,7 @@
       "lavender": "97b41429-787b-44c3-be79-e90093d4ccb4"
     },
     "macchiato": {
+      "rosewater": "c00b67e7-5e07-468b-b5d6-2eefd54f2be9",
       "flamingo": "1bd7191f-f04b-48ae-b38c-6d0fd2f415ee",
       "pink": "734349c1-4f4c-4390-9a85-e769a8123061",
       "mauve": "48f990e8-c328-4da8-8a84-b88907f8fdbc",
@@ -46,6 +49,7 @@
       "lavender": "5688b2e3-aac3-411b-a6c3-37c788965ad9"
     },
     "mocha": {
+      "rosewater": "ca75b20c-6bfb-4c1c-9a30-f446f7c8d56c",
       "flamingo": "2f06f429-fb93-42f6-81d6-59b6ef95bca9",
       "pink": "fea476db-5dd2-4c41-a773-e53df08cf194",
       "mauve": "bc5eb187-13fd-493d-b1a2-372817b04a67",
@@ -63,6 +67,7 @@
   },
   "flat": {
     "latte": {
+      "rosewater": "502898b6-d0ec-4afa-a62a-ee60b2776f54",
       "flamingo": "b3163633-2b46-412a-8a4f-73509481cd95",
       "pink": "b52f7a80-5184-4b03-8693-fe80e1a9f8a1",
       "mauve": "942750b8-370a-47f9-b567-73f2ad01e9ca",
@@ -78,6 +83,7 @@
       "lavender": "0d80088c-98e4-4e07-8da0-39ec978dd315"
     },
     "frappe": {
+      "rosewater": "5fe90cfb-bd1a-45cd-b093-7e515496a24b",
       "flamingo": "dc469e78-b294-4de9-8169-2daf75b27535",
       "pink": "5c6d3b9c-adb7-4211-a07a-c22e05f07b71",
       "mauve": "83ad33c0-a7b2-41e9-8145-4985a50ae191",
@@ -93,6 +99,7 @@
       "lavender": "1ca0f052-e1dd-406b-ae43-218ed425ab63"
     },
     "macchiato": {
+      "rosewater": "9ea7e8e3-5843-4909-bec2-1fc255286dac",
       "flamingo": "cee0788d-16ec-4a15-86cd-597b10d1e04e",
       "pink": "87246544-bf43-4ba2-869d-793696d5d131",
       "mauve": "5a9f7d34-9424-46ff-b158-9d80306dfff9",
@@ -108,6 +115,7 @@
       "lavender": "bb20a484-c2c7-4d14-b694-f9bbdc16af33"
     },
     "mocha": {
+      "rosewater": "d1d02908-43fe-4e0b-8191-deebf0c41ac0",
       "flamingo": "3c9f518d-be44-4ecb-ab22-73d7c407aca8",
       "pink": "9ea0cbb8-b860-487a-9335-cfa42397695f",
       "mauve": "30c45eb9-5e19-4329-b7dd-cd55a06a6f98",
@@ -125,6 +133,7 @@
   },
   "amoled": {
     "mocha": {
+      "rosewater": "14c8e7e7-4fcd-4030-8a1d-623f38dabdae",
       "flamingo": "1755382c-cfb6-4c4b-8c7b-6ce0621455ed",
       "pink": "8b944a9b-04aa-4bb1-8313-ef92c8f22735",
       "mauve": "80b451d5-8bea-4922-8cb6-cc697b87084c",
@@ -142,6 +151,7 @@
   },
   "amoledFlat": {
     "mocha": {
+      "rosewater": "6841851b-e670-4e1c-ad62-4528e48fb460",
       "flamingo": "0c8ef50e-6471-4774-9ccd-df57fd74e3f9",
       "pink": "2298f951-611c-43c4-a014-dc9bef70edd5",
       "mauve": "a01fbd44-12b4-4424-9632-d95c25d27bab",
