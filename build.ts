@@ -1,6 +1,6 @@
 // @ts-ignore-next-line: import-a-as-b check doesn't work
 import { variants as flavors } from 'npm:@catppuccin/palette'
-import $ from "https://deno.land/x/dax/mod.ts"
+import $ from "https://deno.land/x/dax@0.19.0/mod.ts"
 import base from './base_settings.json' assert { type: 'json' }
 import uuidMap from './uuid_map.json' assert { type: 'json' }
 
