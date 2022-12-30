@@ -62,8 +62,10 @@ for (const [flavor, labels] of Object.entries(uuidMap.default)) {
     await Deno.writeFile(workfile, data)
 
     // Build background.jpg
-    const backgroundSvg = `${WORK_DIR}/${flavor}_${label}_ctp_on_line_background.svg`
+    const svgName = `${flavor}_${label}_ctp_on_line_background.svg`
+    const backgroundSvg = `${WORK_DIR}/${svgName}`
     await $`cp ${BACKGROUND_BASE} ${backgroundSvg}`
+    await $`sed -i 's/sodipodi:docname="gray0_ctp_on_line_background.svg"/sodipodi:docname="${svgName}"/' ${backgroundSvg}`
     await $`sed -i 's/fill:#ffffff;/fill:${colorWindowBg};/' ${backgroundSvg}`
     await $`sed -i 's/stroke:#6e6c7e;/stroke:${colorAccentBg};/' ${backgroundSvg}`
     await $`sed -i 's/fill:#2f2c3e/fill:${colorAccentBg}/' ${backgroundSvg}`
